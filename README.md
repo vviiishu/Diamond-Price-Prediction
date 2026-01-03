@@ -1,100 +1,102 @@
-💎 Diamond Price Prediction – End-to-End Machine Learning Pipeline
+# 💎 Diamond Price Prediction – End-to-End Machine Learning Pipeline
 
-This project demonstrates an end-to-end machine learning workflow for predicting diamond prices using structured tabular data.
-It focuses on data preprocessing, feature engineering, model training, and evaluation, following industry-standard ML practices.
+This project demonstrates an **end-to-end machine learning workflow** for predicting diamond prices using structured tabular data.  
+It showcases **data preprocessing, feature engineering, model training, evaluation, and pipeline-based design** following industry best practices.
 
-📌 Project Overview
+---
 
-Diamond pricing depends on multiple attributes such as carat, cut, color, clarity, and physical dimensions.
-This project applies supervised regression models to learn the relationship between diamond features and market price.
+## 📌 Project Overview
 
-The objective is to build a robust, reproducible ML pipeline that produces accurate price predictions and demonstrates practical machine-learning methodology.
+Diamond pricing depends on multiple attributes such as carat, cut, color, and clarity.  
+This project applies **supervised regression models** to learn pricing patterns and generate accurate price predictions.
 
-🎯 Objectives
+The objective is to build a **reproducible and scalable ML pipeline** suitable for real-world analytics and pricing problems.
 
-Perform exploratory data analysis (EDA) on diamond pricing data
+---
 
-Engineer meaningful features to improve model performance
+## 🎯 Objectives
+- Perform exploratory data analysis (EDA) on diamond pricing data
+- Engineer relevant features to improve predictive performance
+- Train and compare multiple regression models
+- Evaluate models using standard regression metrics
+- Implement a clean, modular ML workflow
 
-Train and compare multiple regression models
+---
 
-Evaluate models using standard performance metrics
+## 🛠 Tools & Technologies
+- **Language:** Python  
+- **Libraries:** Pandas, NumPy, Scikit-learn  
+- **Visualization:** Matplotlib, Seaborn  
+- **ML Techniques:** Regression Modeling, Feature Engineering, Hyperparameter Tuning  
+- **Evaluation Metrics:** R² Score, MAE, RMSE  
 
-Build a clean, modular ML workflow
+---
 
-🛠 Tools & Technologies
+## 📊 Dataset
+- Publicly available diamond dataset
+- **50,000+ records**
+- Features include:
+  - Carat
+  - Cut
+  - Color
+  - Clarity
+  - Depth
+  - Table
+  - Dimensions (x, y, z)
+- Target variable: **Price**
 
-Language: Python
+⚠️ *No proprietary or confidential data is used in this project.*
 
-Libraries: Pandas, NumPy, Scikit-learn
+---
 
-Visualization: Matplotlib, Seaborn
+## 🔍 Methodology
 
-ML Techniques: Regression, Feature Engineering, Model Evaluation
+### 1️⃣ Data Preprocessing
+- Handling missing values
+- Encoding categorical variables
+- Scaling numerical features
 
-Metrics: R² Score, MAE, RMSE
+### 2️⃣ Exploratory Data Analysis
+- Distribution analysis
+- Correlation analysis
+- Feature impact assessment
 
-📊 Dataset
+### 3️⃣ Model Development
+- Linear Regression
+- Tree-based Regression Models
+- Cross-validation and hyperparameter tuning
 
-50,000+ diamond records
+### 4️⃣ Model Evaluation
+- Performance comparison using R², MAE, and RMSE
+- Selection of best-performing model
 
-Key features:
+---
 
-Carat
+## ✅ Key Results
+- Built a complete **end-to-end regression pipeline**
+- Achieved strong predictive performance
+- Demonstrated the impact of feature engineering on pricing accuracy
+- Established a reusable workflow for structured ML problems
 
-Cut
+---
 
-Color
 
-Clarity
+---
 
-Depth
+## 📈 Learning Outcomes
+- Practical experience with regression modeling
+- End-to-end ML pipeline implementation
+- Feature engineering for tabular datasets
+- Model evaluation and comparison
 
-Table
+---
 
-Dimensions (x, y, z)
+## 👤 Author
+**Vishal Kumar Puri**  
+📍 Delhi, India  
+🔗 LinkedIn: https://www.linkedin.com/in/vishal-kumar-puri-846ba5288  
+🔗 GitHub: https://github.com/vviiishu  
 
-Target Variable: Price
+---
 
-⚠️ Dataset is publicly available and contains no proprietary or confidential data.
-
-🔍 Methodology
-1. Data Preprocessing
-
-Missing value handling
-
-Encoding categorical variables
-
-Scaling numerical features
-
-2. Exploratory Data Analysis (EDA)
-
-Distribution analysis
-
-Correlation analysis
-
-Feature influence on price
-
-3. Model Development
-
-Linear Regression
-
-Tree-based regression models
-
-Hyperparameter tuning with cross-validation
-
-4. Model Evaluation
-
-Performance comparison using R², MAE, and RMSE
-
-Selection of the best-performing model
-
-✅ Key Outcomes
-
-Built a complete end-to-end ML pipeline
-
-Achieved strong predictive performance on unseen data
-
-Demonstrated impact of feature engineering on price prediction
-
-Established a reusable workflow for structured ML problems
+⭐ *If you find this project useful, consider starring the repository!*
